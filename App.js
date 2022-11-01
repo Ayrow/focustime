@@ -7,8 +7,8 @@ import {
   Platform,
   StatusBar,
 } from 'react-native';
-import Constants from 'expo-constants';
 import { colors } from './src/utils/colors';
+
 import { Focus } from './src/features/Focus';
 import { Timer } from './src/features/Timer';
 import { FocusHistory } from './src/features/FocusHistory';

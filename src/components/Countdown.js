@@ -11,7 +11,7 @@ export const Countdown = ({ minutes = 0.1, isPaused, onProgress, onEnd }) => {
 
   const [millis, setMillis] = useState(null);
 
-  const reset = () => setMillis(minutesToMillis(minutes))
+  const reset = () => setMillis(minutesToMillis(minutes));
 
   const countDown = () => {
     setMillis((time) => {
@@ -55,7 +55,7 @@ export const Countdown = ({ minutes = 0.1, isPaused, onProgress, onEnd }) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSizes: fontSizes.xxxl,
+    fontSize: fontSizes.xxxl,
     fontWeight: 'bold',
     color: colors.white,
     padding: spacing.lg,
